@@ -754,14 +754,7 @@ static void CreateKeyboardPopup(uint32_t language, ColourScheme colours)
 	static const char* _ecv_array const keysFR[8] = { "1234567890-+", "AZERTWUIOP[]", "QSDFGHJKLM@", "YXCVBN.,:/", "!\"#$%^&*()_=", "azertwuiop{}", "qsdfghjklm'", "yxcvbn<>;?" };
 	static const char* _ecv_array const * const keyboards[] = {
 			keysEN,	// English
-			keysDE,	// German
-			keysFR,	// French
-			keysEN,	// Spanish
-			keysEN,	// Czech
-			keysEN,	// Italian
-			keysEN,	// Polish
 #if USE_CYRILLIC_CHARACTERS
-			keysEN,	// Ukrainian
 			keysEN,	// Russian
 #endif
 	};
